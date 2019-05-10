@@ -14,8 +14,13 @@
     "connect-flash": "^0.1.1",
     "express": "^4.16.4",
     "express-session": "^1.16.1",
+    "express-vue": "^5.8.2",
     "mongoose": "^5.5.7",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
   }
 }
