@@ -1,9 +1,11 @@
 const express = require('express')
 const expressVue = require("express-vue")
 
+const vueOptions = require('./layout/vueLayout')
+
 // Inits
 const app = express()
-const expressVueMiddleware = expressVue.init()
+const expressVueMiddleware = expressVue.init(vueOptions)
 
 // Middlewares
 app.use(expressVueMiddleware)
