@@ -1,4 +1,7 @@
+const path = require('path')
+
 const vueOptions = {
+  rootPath: path.join(__dirname, '../views'),
   template: {
     body: {
       start: '<body class="mdc-typography">',

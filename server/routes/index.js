@@ -5,7 +5,7 @@ router.get('/', (req, res, next) => {
   const data = {
     text: "hello world"
   };
-  res.renderVue('./../../views/Welcome.vue', {data}, req.vueOptions)
+  res.renderVue('Welcome.vue', {data}, req.vueOptions)
 })
 
 module.exports = router
